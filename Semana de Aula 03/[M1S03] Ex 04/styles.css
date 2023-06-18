@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'noto sans', sans serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background: #FFEAEA;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.left-cadastro {
+    width: 50vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-cadastro > h1 {
+    font-size: 3vw;
+    color: #B0003B;
+}
+
+img {
+    width: 35vw;
+}
+
+.right-cadastro {
+    width: 50vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-cadastro {
+    width: 60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #FF6289;
+    border-radius: 20px;
+}
+
+.card-cadastro > h1 {
+    color: white;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.textfield > input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #FFA7B8;
+    color: white;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > select {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #FFA7B8;
+    color: white;
+    font-size: 12pt;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label {
+    color:#f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield > input::placeholder {
+    color:#f0ffff94;
+}
+
+button {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight:800;
+    letter-spacing: 3px;
+    color: white;
+    background: #FF084A;
+    box-shadow: 0px 10px 40px -12px #FF6289;
+}

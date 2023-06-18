@@ -181,9 +181,3 @@ form button[type="submit"] {
     justify-content: center;
     align-items: center;
 }
-  
-@media (max-width: 800px) {
-    body {
-      background-color: pink;
-    }
-}
